@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ithaca Apple Harvest Festival</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="styles/all.css"/>
+</head>
+<body>
+  <div id="container">
+    <header>
+      <a href="index.html" class="main-header">
+        <h1>Ithaca Apple Harvest Festival</h1>
+        <p class="datetime">Friday, September 28 12:00pm-6:00pm</p>
+        <p class="datetime">Saturday & Sunday, September 29-30 10:00am-6:00pm</p>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="history.html">History</a></li>
+          <li><a href="food&drink.html">Food & Drink</a></li>
+          <li><a href="crafts.html">Crafts</a></li>
+          <li><a href="performances.html">Performances</a></li>
+          <li><a href="merchandise.html">Merchandise</a></li>
+          <li><a href="faqs.html">FAQs</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div id="content-holder">
+      <main>
+        <h2>Performances</h2>
+        <p>Ithaca is very proud to present this year’s talented performers. Check out the schedule to see when your favorite performers are performing and discover brand new performers!</p>
+      </main>
+
+      <!--Flexboxes were created to create the rows for the schedule. Also, the div (<div class="photo-citation"<) was created to keep the photo and it's citation separate from the the performance information (<div class="p-info">). The purpose of the class remove was to get rid of an extra border line because then it would appear thicker than it should.-->
+
+      <!--The class row-(some number) was created to make the code more easy to read. It's helpful for when you're debugging using the inspector tools because you can easily find specific rows. -->
+
+      <div class="sat-schedule">
+        <h3 class="date">Saturday, September 29</h3>
+        <h4 class="location location1">At the Bernie Pavilion</h4>
+        <div class="row row-1">
+          <div class= "photo-citation">
+            <img class="percent" src="images/ic-voicestream.jpg" alt="Ithaca college singing group sining during a performance"/>
+            <cite class="cite-padding"><a href= "http://www.icvoicestream.com/about.html">Photo Source</a></cite>
+          </div>
+          <!-- This photo is not mine. This is IC Voicestream's photo -->
+          <div class="p-info">
+            <a href="http://www.icvoicestream.com/">
+              <h5>IC Voicestream</h5>
+            </a>
+            <p>10:00-10:45 AM</p>
+          </div>
+        </div>
+
+        <div class="row row-2">
+          <div class="photo-citation remove">
+            <img class="percent" src="images/grassanova.jpg" alt="Facebook profile photo of the Grassanova band."/>
+            <cite class="cite-padding"><a href="https://www.facebook.com/GrassanovaBluegrass/photos/a.365634350524543/424107184677259/?type=1&theater">Photo Source</a></cite>
+          </div>
+          <!-- This photo is not mine. This is Grassanova's photo -->
+          <div class="p-info remove">
+            <a href="https://www.facebook.com/GrassanovaBluegrass/">
+              <h5>Grassanova</h5>
+            </a>
+            <p>11:00-11:45 AM</p>
+          </div>
+        </div>
+
+        <div class="row row-3">
+          <div class="photo-citation remove">
+            <img class="percent" src="images/B33TJU1C3.jpg" alt="A photo from B33T JU1C3's website."/>
+            <cite class="cite-padding"><a href="https://www.reverbnation.com/b33tju1c3">Photo Source</a></cite>
+          </div>
+          <!-- This photo is not mine. This is B33T JU1C3 photo -->
+          <div class="p-info remove">
+            <a href="https://www.reverbnation.com/b33tju1c3">
+              <h5>B33T JU1C3</h5>
+            </a>
+            <p>Noon-12:45 PM</p>
+          </div>
+        </div>
+
+        <div class="row row-4">
+          <div class="photo-citation remove">
+            <img class="percent" src="images/rachel.jpg" alt="Facebook profile photo of the Rachel Beverly."/>
+            <cite class="cite-padding">
+              <a href="https://www.facebook.com/rachelbeverlymusic/photos/a.681695495340622/969554283221407/?type=1&theater">
+              Photo Source
+              </a>
+            </cite>
+          </div>
+          <!-- This photo is not mine. This is Rachel Beverly's photo -->
+          <div class="p-info remove">
+            <a href="https://www.facebook.com/rachelbeverlymusic/">
+              <h5>Rachel Beverly</h5>
+            </a>
+            <p>1:00-1:45 PM</p>
+          </div>
+        </div>
+
+        <div class="row row-5">
+          <div class="photo-citation remove">
+            <img class="percent" src="images/vitaminl.jpg" alt="Photo of some people from Vitamin L singing."/>
+            <cite class="cite-padding"><a href="https://vitaminl.org/flyer.php">Photo Source</a></cite>
+          </div>
+          <!-- This photo is not mine. This is Vitamin L's photo -->
+          <div class="p-info remove">
+            <a href="https://vitaminl.org/">
+              <h5>Vitamin L</h5>
+            </a>
+            <p>2:00-2:45 PM</p>
+          </div>
+        </div>
+
+        <div class="row row-6">
+          <div class="photo-citation remove">
+            <img class="percent" src="images/veedabee.jpg" alt="Photo of Vee Da Bee singing and playing instruments."/>
+            <cite class="cite-padding">
+              <a href="https://www.facebook.com/veedabeemusic/photos/a.368523030170492/518529885169805/?type=1&theater">
+            Photo Source</a>
+            </cite>
+          </div>
+          <!-- This photo is not mine. This is Vee Da Bee's photo -->
+          <div class="p-info remove">
+            <a href="https://veedabeemusic.com/">
+              <h5>Vee Da Bee</h5>
+            </a>
+            <p>3:00-3:45 PM</p>
+          </div>
+        </div>
+
+        <div class="row row-7">
+          <div class="photo-citation remove">
+            <img class="percent" src="images/mijail.jpg" alt="Photo of Mijail Martinez with his guitar."/>
+            <cite class=cite-padding><a href="https://www.facebook.com/mijailmartinezmusic/photos/a.112437152496400/325187741221339/?type=1&theater"> Photo Source</a>
+            </cite>
+          </div>
+          <!-- This photo is not mine. This is Mijail Martinez's photo -->
+          <div class="p-info remove">
+            <a href="https://www.facebook.com/mijailmartinezmusic/">
+              <h5>Mijail Martinez</h5>
+            </a>
+            <p>4:00-4:45 PM</p>
+          </div>
+        </div>
+
+        <div class="row row-8">
+          <div class="photo-citation remove">
+            <img class="percent" src="images/burns&kristy.jpg" alt="Photo of Burns and Kristy with a guitar."/>
+            <cite class="cite-padding"><a href="https://burnsandkristy.com/photos">Photo Source</a></cite>
+          </div>
+        <!-- This photo is not mine. This photo was taken by Laura Kozlowski. I looked through Kozlowski's portfolio and could not find the photo I used. So, the link I used for my citation is as close to the original source as I can get. -->
+          <div class="p-info remove">
+            <a href="https://burnsandkristy.com/burns-and-kristy">
+              <h5>Burns and Kristy Band</h5>
+            </a>
+            <p>5:00-6:00 PM</p>
+          </div>
+        </div>
+
+        <h4 class="location location2">At West State Street</h4>
+
+        <div class="row row-9">
+          <div class= "photo-citation remove">
+            <img class="percent" src="images/bellydance.png" alt="Logo of the June with Chadani Belly Dance Troupe"/>
+            <cite class="cite-padding">
+              <a href= "https://www.facebook.com/MoonlightDancerStudio/photos/a.433472800635/10152690887965636/?type=1&theater">Photo Source</a>
+            </cite>
+          </div>
+        <!-- This photo is not mine. This is the photo of June with Chadani Belly Dance Troupe -->
+          <div class="p-info remove">
+            <a href="https://www.facebook.com/MoonlightDancerStudio/">
+              <h5>June with Chadani Belly Dance Troupe</h5>
+            </a>
+            <p>12:30-1:15 PM</p>
+          </div>
+        </div>
+
+        <div class="row row-10">
+          <div class= "photo-citation remove">
+            <img class="percent" src="images/icircus.jpg" alt="The profile photo of iCircus."/>
+            <cite class="cite-padding">
+              <a href= "https://www.facebook.com/IthacaCollegeCircusClub/photos/a.476076679418309/476092859416691/?type=1&theater">Photo Source</a>
+            </cite>
+          </div>
+          <!-- This photo is not mine. This is the photo of iCircus. -->
+          <div class="p-info remove">
+            <a href="https://www.facebook.com/IthacaCollegeCircusClub/">
+              <h5>iCircus</h5>
+            </a>
+            <p>1:30-2:15 PM</p>
+          </div>
+        </div>
+
+        <div class="row row-11">
+          <div class= "photo-citation remove">
+            <img class="percent" src="images/danza.jpg" alt="Danza Romani dancing."/>
+            <cite class="cite-padding">
+              <a href= "https://www.facebook.com/search/top/?q=%20danza%20romani%20ithaca">Photo Source</a>
+            </cite>
+          </div>
+          <!-- This photo is not mine. This photo was posted by WVBR. -->
+          <div class="p-info remove">
+            <a href="https://www.facebook.com/MoonlightDancerStudio/">
+            <!-- Danza Romani is affiliated with Moon Light Dancer Studio -->
+              <h5>Danza Romani</h5>
+            </a>
+            <p>2:30-3:15 PM</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="sun-schedule">
+        <h3 class="date">Sunday, September 30</h3>
+        <h4 class="location location1">At the Bernie Pavilion</h4>
+        <div class="row row-1">
+          <div class= "photo-citation">
+            <img class = "percent" src="images/flightlogo.jpg" alt="Flight Performing Arts logo."/>
+            <cite class="cite-padding">
+              <a href= "https://www.flightvoicestudio.com/home">Photo Source</a>
+            </cite>
+          </div>
+          <!-- This photo is not mine. This is Flight Performing Art's photo -->
+          <div class="p-info">
+            <a href="https://www.flightvoicestudio.com/home">
+              <h5>Flight Performing Arts</h5>
+            </a>
+            <p>10:00-10:45 AM</p>
+          </div>
+        </div>
+
+        <div class="row row-2">
+          <div class= "photo-citation remove">
+            <img class = "percent" src="images/blueskies.jpg" alt="A photo of the members of Blue Skies."/>
+            <cite class="cite-padding">
+              <a href= "http://blueskiesithaca.com/photos.php">Photo Source</a>
+            </cite>
+          </div>
+          <!-- This photo is not mine. This is Blue Skies's photo -->
+          <div class="p-info remove">
+            <a href="http://blueskiesithaca.com/">
+              <h5>Blue Skies</h5>
+            </a>
+            <p>11:00-11:45 AM</p>
+          </div>
+        </div>
+
+        <div class="row row-3">
+          <div class= "photo-citation remove">
+            <img class = "percent" src="images/jessnovak.jpg" alt="A artsy photo of Jess Novak in the air."/>
+            <cite class="cite-padding">
+              <a href= "https://www.facebook.com/photo.php?fbid=10103063508062159&set=a.820327435159&type=3&theater">Photo Source</a>
+            </cite>
+          </div>
+          <!-- This photo is not mine. This is Jess Novak's photo -->
+          <div class="p-info remove">
+            <a href="https://www.jessrocknovak.com/">
+              <h5>Jess Novak</h5>
+            </a>
+            <p>Noon-12:45 PM</p>
+          </div>
+        </div>
+
+        <div class="row row-4">
+          <div class= "photo-citation remove">
+            <img class = "percent" src="images/liamalone.jpg" alt="Liam Alone with a guitar."/>
+            <cite class="cite-padding">
+              <a href= "https://www.reverbnation.com/liamalone">Photo Source</a>
+            </cite>
+          </div>
+          <!-- This photo is not mine. This is Liam Alone's photo -->
+          <div class="p-info remove">
+            <a href="https://www.reverbnation.com/liamalone">
+              <h5>Liam Alone</h5>
+            </a>
+            <p>1:00-1:45 PM</p>
+          </div>
+        </div>
+
+        <div class="row row-5">
+          <div class= "photo-citation remove">
+            <img class= "percent" src="images/sciencecabaret.png" alt="Liam Alone with a guitar."/>
+            <cite class="cite-padding">
+              <a href= "https://www.facebook.com/ScienceCabaret/photos/a.436585359034/10154184734219035/?type=1&theater">Photo Source</a>
+            </cite>
+          </div>
+          <!-- This photo is not mine. This is the photo of Science Cabaret Presents: Bites of Science -->
+          <div class="p-info remove">
+            <a href="https://www.facebook.com/ScienceCabaret/">
+              <h5>Science Cabaret Presents: Bites of Science</h5>
+            </a>
+            <p>2:00-2:30 PM</p>
+          </div>
+        </div>
+
+        <div class="row row-6">
+          <div class= "photo-citation remove">
+            <img class="percent" src="images/icvocal.jpg" alt="Members of the Ithaca College Jazz Vocal Ensemble performing."/>
+            <cite class="cite-padding">
+              <a href= "https://www.facebook.com/IthacaCollegeJazz/photos/a.175819435804587/175819439137920/?type=1&theater">Photo Source</a>
+            </cite>
+          </div>
+          <!-- This photo is not mine. This is Ithaca College Jazz Vocal Ensemble's photo. -->
+          <div class="p-info remove">
+            <a href="https://www.facebook.com/IthacaCollegeJazz/">
+              <h5>IC Jazz Vocal Ensemble</h5>
+            </a>
+            <p>3:00-3:40 PM</p>
+          </div>
+        </div>
+
+        <div class="row row-7">
+          <div class= "photo-citation remove">
+            <img class="percent" src="images/papamuse.jpg" alt="Artwork for Papa Muse."/>
+            <cite class="cite-padding">
+              <a href= "https://papamuse.bandcamp.com/">Photo Source</a>
+            </cite>
+          </div>
+          <!-- This photo is not mine. This is Papa Muse's photo photo. -->
+          <div class="p-info remove">
+            <a href="https://papamuse.bandcamp.com/">
+              <h5>Papa Muse</h5>
+            </a>
+            <p>4:00-4:45 PM</p>
+          </div>
+        </div>
+
+        <div class="row row-8">
+          <div class= "photo-citation remove">
+            <img class="percent" src="images/neo.jpg" alt="The logo of NEO Project."/>
+            <cite class="cite-padding">
+              <a href= "https://www.facebook.com/NeoProjectBand/photos/a.108037839358666/1018553354973772/?type=1&theater">Photo Source</a>
+            </cite>
+          </div>
+          <!-- This photo is not mine. This is Neo Project's photo. -->
+          <div class="p-info remove">
+            <a href="https://www.facebook.com/NeoProjectBand/">
+              <h5>NEO Project</h5>
+            </a>
+            <p>5:15-6:15 PM</p>
+          </div>
+        </div>
+
+        <h4 class="location location2">At West State Street</h4>
+
+        <div class="row row-9">
+          <div class= "photo-citation remove">
+            <img class="percent" src="images/sugarplum.jpg" alt="Zajal the Sugarplum Fairy at a performance."/>
+            <cite class="cite-padding">
+              <a href= "http://ithacafestival.org/2016-performances/zajal-sugarplum-fairy-friends">Photo Source</a>
+            </cite>
+          </div>
+          <!-- This photo is not mine. This photo was posted by Ithaca Festival of the Arts. -->
+          <div class="p-info remove">
+            <h5>Zajal the Sugarplum Fairy</h5>
+            <!-- This group does not have a Facebook page or website to link to it.-->
+            <p>1:00-1:45 PM</p>
+          </div>
+        </div>
+
+        <div class="row row-10">
+          <div class= "photo-citation remove">
+            <img class="percent" src="images/mirage.jpg" alt="This is a photo of the Mirage Belly Dancers of Ithaca performing."/>
+            <cite class="cite-padding">
+              <a href=  "https://www.facebook.com/Miragebellydancetroupe/photos/a.429279402044/10154623687377045/?type=1&theater">Photo Source</a>
+            </cite>
+          </div>
+          <!-- This photo is not mine. This is Mirage Belly Dancers of Ithaca's photo. -->
+          <div class="p-info remove">
+            <a href="https://www.facebook.com/Miragebellydancetroupe/">
+              <h5>Mirage Belly Dancers of Ithaca</h5>
+            </a>
+            <p>2:15-3:00 PM</p>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        Information for the schedule of performances was taken from the original Ithaca Apple Harvest Festival
+        <cite>
+          <a href="https://www.downtownithaca.com/apple-harvest-festival/#upcoming">website</a>
+        </cite>
+        <div id="background-citation">
+          Background Image
+          <cite>
+            <a href='https://www.freepik.com/free-vector/gingham-style-background_897919.htm'>Designed by Kjpargeter</a>
+          </cite>
+            <!-- I do not own this background image it's by Kjpargeter -->
+        </div>
+      </footer>
+    </div>
+  </div>
+</body>
+</html>
