@@ -453,6 +453,11 @@ p.no-tote {
   font-weight: bold;
 }
 
+/* Form Submitted */
+.formsub{
+  text-align: center;
+}
+
 
 /*Merchandise Form feedback styling to make form more responsive */
 @media screen and (min-width: 660px) and (max-width: 900px){

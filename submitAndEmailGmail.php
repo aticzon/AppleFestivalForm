@@ -4,9 +4,9 @@
 $redirect = "formSubmitted.html";
 
 // Change this to the email you want to send results to.
-$sendToEmail = "bslsustainability@gmail.com";
+$sendToEmail = "";
 // Change this to the email you want to send results from (must be an @gmail.com email ).
-$sendFromEmail = "formbotanicbuzzline@gmail.com";
+$sendFromEmail = "";
 
 // Change to desired subject line for emails
 $subject = "Form Submission for Your Website";
